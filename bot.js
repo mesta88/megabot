@@ -4,7 +4,6 @@ var axios = require('axios');
 require('dotenv').config();
 var youtube_channelID = process.env.YOUTUBE_CHANNEL_ID;
 var discord_token = process.env.DISCORD_API_TOKEN;
-var discord_channelID = process.env.DISCORD_CHANNEL_ID;
 
 var bot = new Discord.Client({
     token: discord_token,
